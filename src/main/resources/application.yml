@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: '@nani1434509W'
+    url: jdbc:mysql://localhost:3306/myapp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
